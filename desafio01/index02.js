@@ -71,8 +71,8 @@ class LancheDiretor {
     }
 }
 
-const simples = LancheDiretor().lancheSimples();
-const completo = LancheDiretor().lancheCompleto();
+const simples = LancheDiretor.lancheSimples();
+const completo = LancheDiretor.lancheCompleto();
 
 simples.show();
 completo.show();
